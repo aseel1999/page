@@ -1,0 +1,40 @@
+.tabs{
+    border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+
+}
+
+.tabs th{
+    text-align:left;
+    background-color: orange;
+  
+}
+tr:nth-child(even){
+background-color: #f2f2f2
+}
+ td{
+    text-align: left;
+      
+      color:black;
+    }
+    th,td{
+        padding: 8px;
+    }
+#Address,#phone{
+    font-size: larger;
+    border-radius: 14px;
+    max-width: 500px;
+    max-height: 200px;
+    border:1px solid #ddd;
+    color:#ddd;
+}
+#conf{
+    padding: 26px;
+    border-radius: 50%;
+    background-color: orange;
+    color:white;
+    border: 1px solid orange;
+    font-weight: 200px;
+    
+}
